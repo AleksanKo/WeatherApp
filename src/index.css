@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Baloo Paaji 2' !important;
+  background-image: url('./eric-jacob-G0miZ5OYaXI-unsplash.jpg');
+  height:818px;
+}
+
+html, div {
+  min-height:100%;
+}
+
+h1, h2 {
+  font-weight: bold;
+  text-align: center;
+  margin: 20px;
+
+}
+
+.new-div {
+  font-size: 20px;
+  text-align: center;
+  align-content: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.country-div {
+  margin: 20px;
+  text-align: center;
+  align-content: center ;
+}
+
+p {
+  text-align: center;
+  align-content: center;
+}
+
+.button-cls {
+  margin: 10px;
+}
+
+.form-cls {
+  width: 300px !important;
+  align: center !important;
+}
+
+.lang-div {
+  text-align: inherit;
+  align-content: inherit;
+  margin: inherit;
+}
+
+.source-link {
+  background-color:black;
+  color:white;
+  text-decoration:none;
+  padding:4px 6px;
+  font-size:12px;
+  font-weight:bold;
+  line-height:1.2;
+  display:inline-block;
+  border-radius:3px;
+}
+
+.svg-source {
+  height:12px;
+  width:auto;
+  position:relative;
+  vertical-align:middle;
+  top:-2px;
+  fill:white;
+}
+
+.span-source {
+  display:inline-block;
+  padding:2px 3px;
+}
+
+.footer-div {
+  text-align: center;
+  align-content: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.list-group-item-action {
+  /* width: 100%; */
+  color: #495057;
+  text-align: inherit;
+  width: 200px !important;
+}
