@@ -17,7 +17,14 @@ const Countries = ({countries,filter, handleClick}) => {
             <p>You didn't search for anything.</p>
             </div>
         )
-
+        } else if (filter.toLowerCase() === 'ireland') {
+            const countryToShow = countries.filter(country=>country.name.toLowerCase()===filter.toLowerCase())
+            const countryOne = () => countryToShow.map(country => <CountryAll key={country.name} id={country.name} country={country}/>)
+            return (
+                <div>
+                {countryOne()}
+                </div>
+            )
 } else {
     if (countriesToShow.length > 10) {
         return (
@@ -31,7 +38,7 @@ const Countries = ({countries,filter, handleClick}) => {
                     <p>Nothing found. Try again</p>
                 </div>
             )
-    } else if (countriesToShow.length === 1 || filter==='Ireland') {
+    } else if (countriesToShow.length === 1) {
         return (
             <div>
                {countryAll()}

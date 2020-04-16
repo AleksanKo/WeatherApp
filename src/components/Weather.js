@@ -32,7 +32,6 @@ const WeatherForCities = ({city}) => {
   
   let api = '75a6f0f0c102814dcb600a363fb65988'
 
-
   const errorNoCity = () => {
     if (wind) {
       return (

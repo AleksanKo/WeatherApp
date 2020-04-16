@@ -1,5 +1,6 @@
 # WeatherApp
 
+
 Search by city or by country.
 Displayed data for cities:
 - temperature
@@ -12,4 +13,4 @@ Displayed data for countries:
 - capital
 - languages (clicable, lead to the corresponding Wikipedia page)
 - flag
-- wearther in the capital (temperature and wind)
+- weather in the capital (temperature and wind)
