@@ -11,7 +11,6 @@ const WeatherForCountries = ({capital}) => {
       .then(response => {
         setWind(response.data.wind.speed)
         setTemp(response.data.main.temp)
-        console.log(response.data.wind.speed,'in',response.data.name)
         },)
   }, [])
   return (
@@ -62,9 +61,6 @@ const WeatherForCities = ({city}) => {
       setTemp(response.data.main.temp)
       setFeeling(response.data.main.feels_like)
       setWeather(response.data.weather[0].main)
-      
-      console.log(response.data.wind.speed,'in',response.data.name)
-      console.log(response.data)
       },
       )
     .catch(error => {
