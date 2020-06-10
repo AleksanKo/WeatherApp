@@ -2,11 +2,6 @@ import React from 'react'
 import {Form, Button} from 'react-bootstrap'
 
 const SearchForm = (props) => {
-    // const filterByName = (event) => {
-    //     event.preventDefault()
-    //     const countries = props.countries
-    //     const country = countries.map(country => country.name)
-    // }
     const changeForm = () => {
     let countriesForm = <Form className='form-inline justify-content-center' onChange={()=>props.setShowAll(props.showAll)}>
     <div className='text-center'>
