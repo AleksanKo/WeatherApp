@@ -27,10 +27,7 @@ import {Button,Navbar} from 'react-bootstrap'
 
 const handleCityChange = (event) => {
   event.preventDefault();
-  console.log('wtf')
-  console.log(document.getElementById('city').value)
   setCity(document.getElementById('city').value)
-  console.log(city, 'this is the city')
 }
 
 const handleClick = (event) => {
@@ -52,7 +49,6 @@ const showForm = () => {
   )
 }
 
-  //const props = []
   return (
     <>
     <Navbar expand="lg">
